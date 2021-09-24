@@ -62,13 +62,15 @@ if (pets > allowedPets) {
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
 
-let mostPets= null;
-if (pets > friendsPets) {
-  mostPets= pets;
-} else {
-  mostPets= friendsPets;
-}
-console.log(mostPets);
+// Below is my code for Q.16
+
+//let mostPets= null;
+//if (pets > friendsPets) {
+  //mostPets= pets;
+//} else {
+  //mostPets= friendsPets;
+//}
+//console.log(mostPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 let mostPets= null;
@@ -81,3 +83,7 @@ switch (true) {
 };
 console.log(mostPets);
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+function travel(adventurous) {
+  return (adventurous? "Adventures are great!" : "How about we stay home?");
+};
+console.log(travel(true));
