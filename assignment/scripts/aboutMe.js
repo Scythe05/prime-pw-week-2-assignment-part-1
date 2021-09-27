@@ -86,4 +86,4 @@ console.log(mostPets);
 function travel(adventurous) {
   return (adventurous? "Adventures are great!" : "How about we stay home?");
 };
-console.log(travel(true));
+console.log(travel(adventurous));
